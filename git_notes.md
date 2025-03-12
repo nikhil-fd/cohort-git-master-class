@@ -15,6 +15,7 @@ git add <filename>
 ```
 - The above command will TRACK to a single individual file.
 - The below command can TRACK to all file.👇
+- NOTE: TRACK means STAGE
 ```git
 git add .
 ```
@@ -45,11 +46,23 @@ git diff
 ```git
 cat <filename>
 ```
-### Below command can render hash file data
-- goto project folder - cd .git/objects/70 
+### Below command can render hash file data which hash created after commit.
+- 1st after use commit -m cmd then do git log and you get hash code.
+- 2nd after get hash code copy that code and note down the starting 2 digit of that hash code that 2digit number name's 1 folder will be created in directory .git/two digit folder name. open that 2digit name folder here you get that hash code. 
+- 3rd now go back to directory .git and from here run below cmd then it will open that hash code and we can see the committed msg details.👇
+```git
+NIKHIL DAS@nikhil-pc MINGW64 /d/cohort_git_github/.git (GIT_DIR!)     
+$ git cat-file -p db0ae0
+b0c248611572ba6b87e4d8062b656536bd
+```
 ```git
 git cat-file -p <hash>
 ```
+- check "type" by -t👇
+```git
+git cat-file -t <hash>
+```
+⏳NOTE: In real time scenario developers should not visit .git repository again and agian. They work everything without touch .git repository. This way is good.
 
 
 
