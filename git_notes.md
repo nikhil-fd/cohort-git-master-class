@@ -62,7 +62,7 @@ git cat-file -p <hash>
 ```git
 git cat-file -t <hash>
 ```
-⏳NOTE: In real time scenario developers should not visit .git repository again and agian. They work everything without touch .git repository. This way is good.
+⏳NOTE: In real time scenario developers should not visit .git repository again and agian. They work everything without touch .git repository. This way is pritty good.
 
 
 
