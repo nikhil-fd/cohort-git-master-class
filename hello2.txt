@@ -1,0 +1,4 @@
+welcome to git file 2.
+here we can experiment about git.
+come fast and join the git batch.
+all discount get here.

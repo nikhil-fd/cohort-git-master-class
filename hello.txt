@@ -1,2 +1,5 @@
-hellow world
-welcome to GIT project
+hello git and github
+welcome to GIT and GITHUB World.
+git is difficult.
+it takes time to understand.
+i am so happy using GIT.
