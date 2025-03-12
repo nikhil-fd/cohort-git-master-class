@@ -1,5 +1,5 @@
 hello git and github
 welcome to GIT and GITHUB World.
 git is difficult.
-it takes time to understand.
+we deleted the current code.
 i am so happy using GIT.
