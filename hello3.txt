@@ -1,5 +1,4 @@
 git usually takes time.
-no need to identify the data.
-instead of it we can add pro coder.
-supply food to poor.
+try to write code using DRY priniciple.
+supply food to rich.
 assume that we acknowledge it.

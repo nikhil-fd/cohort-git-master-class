@@ -33,6 +33,7 @@ git commit -m "explained how git works"
 git log
 ```
 ### To track what modified in a file and when modified like add or delete👇
+- use "git diff" just after modified data and symbol will be M(blue color) means befor use command add.
 ```git
 git diff <filename>
 ```
