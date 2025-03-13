@@ -28,6 +28,10 @@ git status
 ```git
 git commit -m "explained how git works"
 ```
+#### 👌Through a single command can do add & commit
+```git
+git commit -am "put your task ralated msg"
+```
 - After used commit it creates a individual HASH or (id).
 ### To track the history of project file use👇
 ```git
@@ -82,6 +86,52 @@ git push -u origin main
 ```git
 git push
 ```
+### NOTE:⏳
+- In company there is a "main" branch or some company would keep it's name as "production" or "live" branch.
+- when task assigned to multiple developers then individual/private "branch" is being created under "main" branch per individual task as a ticket number.
+- After task completed then the private branch directly not merged with main branch because the "main" branch is direct connected in production. 
+- So if the private branch has any bugs and it merge with "main" branch then it will be impacted live business. so nobody don't do like this.
+- After task completed in private branch then this task is being reviewed by review team if everything is perfect then the private branch will merge with "main" branch then automatically you work will reflect in production.
+
+#### Create Directory/Folder and File through gitbash cmd
+- for directory/folder creation
+```git
+mkdir <foldername>
+```
+- To crate ".html", ".css", ".js" ".txt" file inside a folder
+```git
+touch <filename.html>
+```
+## 6️⃣Create branch & navigate 1 branch to another branch & merge branch from private to main
+- check currently you are on which branch
+```git
+git branch
+```
+- it will crate a new branch only but won't navigate to that branch automaticaly👇
+```git
+git branch "branch-name"
+```
+- navigate 1 branch to another branch👇
+```git
+git checkout <branchname>
+```
+- It will crate a new branch and simonstanonsly will be navigate to that branch👇
+```git
+git checkout -b <branch-name>
+```
+#### merge branch from "private" to "main" branch
+- 1st switch branch from private to main branch.👇
+```git
+git checkout main
+```
+- then use below cmd👇
+```git
+git merge <private-branch-name>
+```
+```text
+press q -- to exit from git command
+```
+
 
 
 
