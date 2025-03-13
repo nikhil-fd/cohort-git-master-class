@@ -134,7 +134,7 @@ press q -- to exit from git command
 
 
 ## EXTRA:
-- You can install a extension i.e. "git lens" for better git code visualizaion.
+- You can install a extension i.e. "git lens" or "git graph" for better git code visualizaion.
 
 
 
