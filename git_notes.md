@@ -67,6 +67,22 @@ git cat-file -p <hash>
 git cat-file -t <hash>
 ```
 ⏳NOTE: In real time scenario developers should not visit .git repository again and agian. They work everything without touch .git repository. This way is pritty good.
+## 4️⃣At first time if your project folder is not placed in github then follow below.
+- goto github--then create a repository--give repo name--give description--select public--then click create
+- After this goto vs code editor--goto project folder path in gitbash--then write below cmd--it will push your project folder to gitgub's newely created repository. 
+```git
+git remote add origin <repository/folder url>
+```
+## 5️⃣After added repository in github then push project folder from vscode editor to github.
+- When 1st time push any project folder then use below cmd👇
+```git
+git push -u origin main
+```
+- Once push project folder to github then whenever any changes occured in your project file then push file to github by below cmd👇
+```git
+git push
+```
+
 
 
 
