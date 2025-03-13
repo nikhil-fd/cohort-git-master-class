@@ -33,6 +33,10 @@ git commit -m "explained how git works"
 ```git
 git log
 ```
+- Below cmd gives all commit in 1 line
+```git
+git log --oneline
+```
 ### To track what modified in a file and when modified like add or delete👇
 - use "git diff" just after modified data and symbol will be M(blue color) means befor use command add.
 ```git
