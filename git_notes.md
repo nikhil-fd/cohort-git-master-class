@@ -86,6 +86,11 @@ git push -u origin main
 ```git
 git push
 ```
+### OR
+- Below cmd will directly push code in main branch. samve above cmd also can do but here we undoubtly pushed into main.
+```git
+git push --set-upstream origin main
+```
 ### NOTE:⏳
 - In company there is a "main" branch or some company would keep it's name as "production" or "live" branch.
 - when task assigned to multiple developers then individual/private "branch" is being created under "main" branch per individual task as a ticket number.
