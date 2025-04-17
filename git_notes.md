@@ -136,6 +136,21 @@ git merge <private-branch-name>
 ```text
 press q -- to exit from git command
 ```
+## 7️⃣Difference between "git clone repo-link" & "git remote add origin repo-link"
+```git
+git clone <repo-link>
+```
+- copy git remote project folder >>> to local vs code editor >>>
+- If you have created a project folder(repository) in git but that folder doesn't exist in your local vs code editor, so if you want to get that project folder from git to local machine vs code editor then use this command.
+
+
+
+```git
+git remote add origin <repo-link>
+```
+- Push/move local vs code editor project folder >>> to git remote >>>
+- If you created a project folder in local vs code editor and to that project folder want to push in git the create a folder in git and copy that repository link then come to local vs code editor run this command.
+    
 
 
 ## EXTRA:
